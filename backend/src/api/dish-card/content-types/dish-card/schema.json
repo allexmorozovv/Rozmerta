@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dish_cards",
+  "info": {
+    "singularName": "dish-card",
+    "pluralName": "dish-cards",
+    "displayName": "Dish-card",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "price": {
+      "type": "string"
+    }
+  }
+}

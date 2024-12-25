@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "sidebars",
+  "info": {
+    "singularName": "sidebar",
+    "pluralName": "sidebars",
+    "displayName": "Sidebar",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.m-link"
+    }
+  }
+}

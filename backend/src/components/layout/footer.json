@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_layout_footers",
+  "info": {
+    "displayName": "footer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logoLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.logo-link"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.link"
+    },
+    "phoneNumber": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.text"
+    },
+    "privacyPolicy": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.link"
+    }
+  }
+}
