@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'Vollkorn';
-    src: url('subset-Vollkorn-Regular.woff2') format('woff2'),
-        url('subset-Vollkorn-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
